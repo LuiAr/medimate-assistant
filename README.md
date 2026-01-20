@@ -1,6 +1,6 @@
 # MediMate
 
-## Made during an AI & Health Hackathon in Stockholm
+## Made during an AI & Health Hackathon in Stockholm (and made it to THIRD PLACE 🥉)
 
 ![Homepage](homepage_medimate.png)
 
