@@ -1,0 +1,10 @@
+project_id = "hquyydabxhnuiynvhiew"
+
+[functions.get-patients]
+verify_jwt = false
+
+[functions.get-patient]
+verify_jwt = false
+
+[functions.process-notes]
+verify_jwt = false

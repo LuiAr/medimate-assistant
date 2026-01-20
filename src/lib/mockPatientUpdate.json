@@ -1,0 +1,85 @@
+{
+  "patient": {
+    "subject_id": "PT-0001",
+    "name": "Uwe Meyer",
+    "gender": "M",
+    "DOB": "1950-01-01",
+    "phone_number": "000-000-0000",
+    "room": "139",
+    "admission_date": "2025-11-25"
+  },
+  "measurements": {
+    "height": "165 cm",
+    "weight": "70 kg",
+    "BMI": 25.7
+  },
+  "history": {
+    "past_medical_history": [
+      "Status post left hip replacement (2015)",
+      "Chronic Kidney Disease – Stage 3",
+      "Hypertension",
+      "Type 2 Diabetes Mellitus (diagnosed 2008)"
+    ],
+    "family_history": ["Mother – Type 2 Diabetes", "Father – Myocardial Infarction at age 68"],
+    "social_history": [
+      "Former smoker (quit 2005, 20 pack-year history)",
+      "Occasional alcohol use",
+      "Lives with spouse"
+    ],
+    "work_history": ["Retired school teacher"],
+    "medication": ["Metformin 500 mg BID", "Lisinopril 10 mg daily", "Atorvastatin 20 mg nightly"],
+    "past_medication": ["Glyburide 5 mg daily (discontinued 2020)", "Amlodipine 5 mg daily (discontinued 2018)", "Simvastatin 40 mg nightly (discontinued 2019)"],
+    "allergies": ["Penicillin – rash", "No known drug or food allergies otherwise"]
+  },
+  "note": "Patient reports he feels well, slept well. He reports the pain in the left epigastrium has gotten better, but now a he complains baout pain in his right hypogastrium, itensity varies over the day, no dependency on food or change of body position. No iradiation. He reports nausea, loss of appetite and a general sense of weekness.",
+  "tasks": [
+    {
+      "task_id": "T-001",
+      "task_type": "Temperature measurement",
+      "description": "Measure patient temperature to assess for fever or infection",
+      "department": "Emergency",
+      "status": "requested",
+      "priority": "High",
+      "details": "Oral",
+      "created_at": "2025-11-28T10:30:00Z",
+      "updated_at": "2025-11-28T10:30:00Z",
+      "due_date": "2025-11-28"
+    },
+    {
+      "task_id": "T-002",
+      "task_type": "Blood test",
+      "description": "Comprehensive blood panel to assess metabolic function and rule out infection",
+      "department": "Laboratory",
+      "status": "requested",
+      "priority": "High",
+      "details": "Complete Blood Count (CBC)",
+      "created_at": "2025-11-28T10:30:00Z",
+      "updated_at": "2025-11-28T10:30:00Z",
+      "due_date": "2025-11-28"
+    },
+    {
+      "task_id": "T-003",
+      "task_type": "Urine test",
+      "description": "Urinalysis to rule out urinary tract infection or kidney issues",
+      "department": "Laboratory",
+      "status": "requested",
+      "priority": "High",
+      "details": "Urinalysis",
+      "created_at": "2025-11-28T10:30:00Z",
+      "updated_at": "2025-11-28T10:30:00Z",
+      "due_date": "2025-11-28"
+    },
+    {
+      "task_id": "T-004",
+      "task_type": "Imaging",
+      "description": "Abdominal ultrasound to investigate right hypogastrium pain",
+      "department": "Radiology",
+      "status": "requested",
+      "priority": "High",
+      "details": "Ultrasound",
+      "created_at": "2025-11-28T10:30:00Z",
+      "updated_at": "2025-11-28T10:30:00Z",
+      "due_date": "2025-11-29"
+    }
+  ]
+}

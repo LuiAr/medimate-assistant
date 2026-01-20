@@ -1,0 +1,66 @@
+{
+  "patient": {
+    "subject_id": "PT-0001",
+    "name": "Uwe Meyer",
+    "gender": "M",
+    "DOB": "1950-01-01",
+    "phone_number": "000-000-0000",
+    "room": "139",
+    "admission_date": "2025-11-25",
+    "priority": "High"
+  },
+  "measurements": {
+    "height": "165 cm",
+    "weight": "70 kg",
+    "BMI": 25.7
+  },
+  "history": {
+    "past_medical_history": [
+      "Status post left hip replacement (2015)",
+      "Chronic Kidney Disease – Stage 3",
+      "Hypertension",
+      "Type 2 Diabetes Mellitus (diagnosed 2008)"
+    ],
+    "family_history": ["Mother – Type 2 Diabetes", "Father – Myocardial Infarction at age 68"],
+    "social_history": [
+      "Former smoker (quit 2005, 20 pack-year history)",
+      "Occasional alcohol use",
+      "Lives with spouse"
+    ],
+    "work_history": ["Retired school teacher"],
+    "medication": ["Metformin 500 mg BID", "Lisinopril 10 mg daily", "Atorvastatin 20 mg nightly"],
+    "past_medication": ["Glyburide 5 mg daily (discontinued 2020)", "Amlodipine 5 mg daily (discontinued 2018)", "Simvastatin 40 mg nightly (discontinued 2019)"],
+    "allergies": ["Penicillin – rash", "No known drug or food allergies otherwise"]
+  },
+  "note": "Previous examination: Patient presented with mild epigastric discomfort. Vital signs stable. Continue current medication regimen.",
+  "tasks": [
+    {
+      "task_id": "T-PAST-001",
+      "task_type": "Blood test",
+      "description": "Complete blood count to assess general health status",
+      "department": "Laboratory",
+      "status": "Completed",
+      "priority": "Medium",
+      "details": "Complete Blood Count (CBC)",
+      "assignee_name": "Nurse Sarah Johnson",
+      "assignee_phone": "+1 (555) 123-4567",
+      "created_at": "2025-11-26T08:00:00Z",
+      "updated_at": "2025-11-26T14:30:00Z",
+      "due_date": "2025-11-26"
+    },
+    {
+      "task_id": "T-PAST-002",
+      "task_type": "Lab test",
+      "description": "Liver function panel to monitor medication effects",
+      "department": "Laboratory",
+      "status": "Requested",
+      "priority": "Medium",
+      "details": "Liver Function Tests",
+      "assignee_name": "City Medical Laboratory",
+      "assignee_phone": "+1 (555) 987-6543",
+      "created_at": "2025-11-27T09:15:00Z",
+      "updated_at": "2025-11-27T09:15:00Z",
+      "due_date": "2025-11-29"
+    }
+  ]
+}
